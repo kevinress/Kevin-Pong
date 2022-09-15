@@ -76,6 +76,7 @@ public class PowerUpManager : MonoBehaviour
     {
         powerUpList.Remove(powerUp);
         Destroy(powerUp);
+        despawnTimer = 0;
     }
 
     public void RemoveAllPowerUp()
